@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "e78bf92f-17dd-4e2d-a5e6-6b4f682f2fcf",
+      "data": [
+        {
+          "text": "no thanks!!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9e76e9e-0cc2-4d9e-a2b9-dfd258a02478",
+      "data": [
+        {
+          "text": "no i dont want any toppings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6278ba95-38d5-4be8-bbd0-316d25f3b8b2",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d43469b-737a-4b17-939c-6666665aa706",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "36bba5ef-ed85-4d66-a285-a2526495cc4f",
+  "name": "no-toppings",
+  "auto": true,
+  "contexts": [
+    "no-toppings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        },
+        {
+          "name": "no-toppings",
+          "lifespan": 0
+        },
+        {
+          "name": "yes-toppings",
+          "lifespan": 0
+        },
+        {
+          "name": "yes-offer",
+          "lifespan": 5
+        },
+        {
+          "name": "no-offer",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay then! You will get regular #pizza.type #pizza.size sized pizza. Would you like to have another pizza? We have buy 1 get 1 free offer.."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

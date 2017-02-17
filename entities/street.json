@@ -1,0 +1,33 @@
+{
+  "id": "bad2f820-a711-4cfc-9a14-b1d05558eb30",
+  "name": "street",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "paud road",
+      "synonyms": [
+        "paud road"
+      ]
+    },
+    {
+      "value": "pune-mumbai highway",
+      "synonyms": [
+        "pune-mumbai highway"
+      ]
+    },
+    {
+      "value": "court road",
+      "synonyms": [
+        "court road"
+      ]
+    },
+    {
+      "value": "satara road",
+      "synonyms": [
+        "satara road"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

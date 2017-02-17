@@ -1,0 +1,93 @@
+{
+  "id": "b2dc772b-aa42-4eb4-9f54-fcf792830ca8",
+  "name": "address",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "flat no",
+      "synonyms": [
+        "flat no",
+        "Flat No.",
+        "Flat no"
+      ]
+    },
+    {
+      "value": "Building name",
+      "synonyms": [
+        "Building name",
+        "complex",
+        "bldng"
+      ]
+    },
+    {
+      "value": "society",
+      "synonyms": [
+        "society",
+        "area"
+      ]
+    },
+    {
+      "value": "city",
+      "synonyms": [
+        "city"
+      ]
+    },
+    {
+      "value": "pin code",
+      "synonyms": [
+        "pin code",
+        "pin"
+      ]
+    },
+    {
+      "value": "kothrud",
+      "synonyms": [
+        "kothrud"
+      ]
+    },
+    {
+      "value": "address",
+      "synonyms": [
+        "address"
+      ]
+    },
+    {
+      "value": "raviraj society",
+      "synonyms": [
+        "raviraj society"
+      ]
+    },
+    {
+      "value": "swargate",
+      "synonyms": [
+        "swargate"
+      ]
+    },
+    {
+      "value": "pune",
+      "synonyms": [
+        "pune"
+      ]
+    },
+    {
+      "value": "411038",
+      "synonyms": [
+        "411038"
+      ]
+    },
+    {
+      "value": "raviraj",
+      "synonyms": [
+        "raviraj"
+      ]
+    },
+    {
+      "value": "4",
+      "synonyms": [
+        "4"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

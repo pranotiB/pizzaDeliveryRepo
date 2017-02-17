@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "745ac2ed-5540-4bcc-91c2-ad8aa34eac95",
+      "data": [
+        {
+          "text": "Heyy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0985f35-d968-4cac-97f6-2b1d7a6e8732",
+      "data": [
+        {
+          "text": "heyy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd9a1f38-339f-4490-bdf1-ff3cd75895ef",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da78d6eb-663a-4be3-8199-8536db607121",
+      "data": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "caa09d5c-31d4-425e-a038-c80453db7e64",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0d3453be-1140-443d-b779-8d1353d268d9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi! Welcome to PizzaDelivery. May I know your name please?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "1f572f3e-802e-4870-a3c0-b3a7b90bd49c",
+  "name": "complex",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "supratim",
+      "synonyms": [
+        "supratim"
+      ]
+    },
+    {
+      "value": "raviraj",
+      "synonyms": [
+        "raviraj",
+        "raviraaj",
+        "raveeraj"
+      ]
+    },
+    {
+      "value": "shanti",
+      "synonyms": [
+        "shanti",
+        "shantee"
+      ]
+    },
+    {
+      "value": "radhekrishna",
+      "synonyms": [
+        "radhekrishna"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

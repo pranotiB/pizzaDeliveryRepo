@@ -1,0 +1,187 @@
+{
+  "userSays": [
+    {
+      "id": "34ff74d2-fd5d-4cfb-ba3c-c62867d29696",
+      "data": [
+        {
+          "text": "i want #"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " sized pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09088b20-b1e8-4542-ae51-432c10a7e3a7",
+      "data": [
+        {
+          "text": "I want #"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " size pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "316aa3b3-7f17-41e5-b192-6f8622d2dea3",
+      "data": [
+        {
+          "text": "#"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b28ec24a-b06b-43cd-8411-5292ee42ac77",
+      "data": [
+        {
+          "text": "#"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e8b0363-513b-438a-985d-b161d8d628e5",
+      "data": [
+        {
+          "text": "#"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30a60bb0-0c23-4579-8264-e2b45bbbd8af",
+      "data": [
+        {
+          "text": "i want #"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "891688ba-d51a-403f-9ecb-dfa794e242a3",
+      "data": [
+        {
+          "text": "i\u0027d like to have #"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d603dcfe-6d7e-4f4e-95e9-101a9b629360",
+      "data": [
+        {
+          "text": "I want #"
+        },
+        {
+          "text": "size",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": " pizza."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "315b9554-fc38-4ee9-bdda-c807256732ac",
+  "name": "pizza-size",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.pizza.size",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ok. What type of crust you want for your #pizza.type pizza?",
+            "What crust you want for your #pizza.type pizza?",
+            "What type of crust you would like to have for your $size #pizza.type pizza??"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

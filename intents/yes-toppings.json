@@ -1,0 +1,228 @@
+{
+  "userSays": [
+    {
+      "id": "e8c452d5-72f4-4e04-bb66-8c2ca6848c70",
+      "data": [
+        {
+          "text": "i want @"
+        },
+        {
+          "text": "toppings",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " and @"
+        },
+        {
+          "text": "toppings",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7426634c-4331-40f2-841b-a9d18c680f7a",
+      "data": [
+        {
+          "text": "i\u0027d like to have some @"
+        },
+        {
+          "text": "toppings",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " and @"
+        },
+        {
+          "text": "toppings",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " and @"
+        },
+        {
+          "text": "toppings",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d32616a-2c6c-4b6b-9302-4b3638bf8933",
+      "data": [
+        {
+          "text": "i want some @"
+        },
+        {
+          "text": "toppings",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "884b15df-5b41-4d18-ae5c-77e52a83a344",
+      "data": [
+        {
+          "text": "i want "
+        },
+        {
+          "text": "cheese",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "capsicum",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "tomatoes",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0683580-239d-43cd-a39f-35ed40f02e1a",
+      "data": [
+        {
+          "text": "i want "
+        },
+        {
+          "text": "cheese",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        },
+        {
+          "text": " and some "
+        },
+        {
+          "text": "capsicums",
+          "alias": "toppings",
+          "meta": "@toppings",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86bb35d0-08fd-45f3-9ff5-883ae86c250f",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3fd84e37-f64c-454a-8ecd-932b89decad8",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7bd0af41-bbdb-4dd0-aaa2-69a7c5bc7040",
+  "name": "yes-toppings",
+  "auto": true,
+  "contexts": [
+    "yes-toppings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.pizza.toppings",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        },
+        {
+          "name": "yes-toppings",
+          "lifespan": 0
+        },
+        {
+          "name": "yes-offer",
+          "lifespan": 3
+        },
+        {
+          "name": "no-offer",
+          "lifespan": 3
+        },
+        {
+          "name": "no-toppings",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@toppings",
+          "name": "toppings",
+          "value": "$toppings",
+          "prompts": [
+            "Please tell me which toppings you want to add to your pizza..",
+            "Which toppings you would like to add then?",
+            "Which toppings you want?"
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Okay great #pizza.name! we\u0027ll add $toppings to your #pizza.type pizza. I have buy 1 get 1 offer for you. Would you like to have another pizza??",
+            "Okay we\u0027ll add these toppings to your #pizza.type pizza #pizza.name. We have buy 1 get 1 offer for you. Would you like to order another pizza?",
+            "Its gonna be delicious #pizza.type pizza.. Do you like to order another pizza? its buy 1 get 1 free offer..",
+            "Oh its gonna be very yummy pizza. Do you want another pizza?? It\u0027s buy 1 get 1 free offer!!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

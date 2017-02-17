@@ -1,0 +1,36 @@
+{
+  "id": "dcbbe5c3-1cc2-4a82-bb4a-f89794940c1b",
+  "name": "crust",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "thin",
+      "synonyms": [
+        "thin",
+        "thin crust"
+      ]
+    },
+    {
+      "value": "thick",
+      "synonyms": [
+        "thick",
+        "thick crust"
+      ]
+    },
+    {
+      "value": "stuffed",
+      "synonyms": [
+        "stuffed",
+        "stuffed crust"
+      ]
+    },
+    {
+      "value": "crust",
+      "synonyms": [
+        "crust"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

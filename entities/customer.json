@@ -1,0 +1,167 @@
+{
+  "id": "e6db96d5-e92a-4364-a4ba-037c47c45f1a",
+  "name": "customer",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "pranoti",
+      "synonyms": [
+        "pranoti",
+        "Pranoti"
+      ]
+    },
+    {
+      "value": "bunty",
+      "synonyms": [
+        "bunty",
+        "Bunty",
+        "bunti",
+        "buntee"
+      ]
+    },
+    {
+      "value": "rahul",
+      "synonyms": [
+        "rahul",
+        "Rahul"
+      ]
+    },
+    {
+      "value": "pritesh",
+      "synonyms": [
+        "pritesh"
+      ]
+    },
+    {
+      "value": "shital",
+      "synonyms": [
+        "shital",
+        "sheetal"
+      ]
+    },
+    {
+      "value": "reema",
+      "synonyms": [
+        "reema",
+        "rima"
+      ]
+    },
+    {
+      "value": "rina",
+      "synonyms": [
+        "rina",
+        "reena"
+      ]
+    },
+    {
+      "value": "cheta",
+      "synonyms": [
+        "cheta"
+      ]
+    },
+    {
+      "value": "Chaitali",
+      "synonyms": [
+        "Chaitali",
+        "chaitalee"
+      ]
+    },
+    {
+      "value": "reshma",
+      "synonyms": [
+        "reshma",
+        "reshama",
+        "reshmaa"
+      ]
+    },
+    {
+      "value": "rony",
+      "synonyms": [
+        "rony",
+        "roni",
+        "ronee"
+      ]
+    },
+    {
+      "value": "natasha",
+      "synonyms": [
+        "natasha",
+        "natashaa"
+      ]
+    },
+    {
+      "value": "rihana",
+      "synonyms": [
+        "rihana",
+        "reehana"
+      ]
+    },
+    {
+      "value": "riana",
+      "synonyms": [
+        "riana"
+      ]
+    },
+    {
+      "value": "john",
+      "synonyms": [
+        "john"
+      ]
+    },
+    {
+      "value": "mary",
+      "synonyms": [
+        "mary"
+      ]
+    },
+    {
+      "value": "joey",
+      "synonyms": [
+        "joey"
+      ]
+    },
+    {
+      "value": "rachel",
+      "synonyms": [
+        "rachel"
+      ]
+    },
+    {
+      "value": "phebee",
+      "synonyms": [
+        "phebee",
+        "phibi",
+        "phibee"
+      ]
+    },
+    {
+      "value": "ross",
+      "synonyms": [
+        "ross"
+      ]
+    },
+    {
+      "value": "chandler",
+      "synonyms": [
+        "chandler"
+      ]
+    },
+    {
+      "value": "monica",
+      "synonyms": [
+        "monica",
+        "monika"
+      ]
+    },
+    {
+      "value": "prajkta",
+      "synonyms": [
+        "prajkta",
+        "praju",
+        "prajakta"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

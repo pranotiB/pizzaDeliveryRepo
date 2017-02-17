@@ -1,0 +1,124 @@
+{
+  "id": "79f2e7dc-9871-4846-80c7-cfea43d8e9ff",
+  "name": "second-pizza",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "veg",
+      "synonyms": [
+        "veg",
+        "veggie",
+        "vegetable",
+        "vegg",
+        "simply veggie"
+      ]
+    },
+    {
+      "value": "non veg",
+      "synonyms": [
+        "non veg",
+        "non vegg"
+      ]
+    },
+    {
+      "value": "margherita",
+      "synonyms": [
+        "margherita"
+      ]
+    },
+    {
+      "value": "farm fresh",
+      "synonyms": [
+        "farm fresh"
+      ]
+    },
+    {
+      "value": "veg curry",
+      "synonyms": [
+        "veg curry"
+      ]
+    },
+    {
+      "value": "classic veggie",
+      "synonyms": [
+        "classic veggie"
+      ]
+    },
+    {
+      "value": "garden special",
+      "synonyms": [
+        "garden special"
+      ]
+    },
+    {
+      "value": "paneer tandoori",
+      "synonyms": [
+        "paneer tandoori"
+      ]
+    },
+    {
+      "value": "veg bbq",
+      "synonyms": [
+        "veg bbq",
+        "veg barbeque"
+      ]
+    },
+    {
+      "value": "chiken delight",
+      "synonyms": [
+        "chiken delight"
+      ]
+    },
+    {
+      "value": "chiken barbeque",
+      "synonyms": [
+        "chiken barbeque",
+        "chiken bbq"
+      ]
+    },
+    {
+      "value": "tandoori chiken",
+      "synonyms": [
+        "tandoori chiken"
+      ]
+    },
+    {
+      "value": "fajita",
+      "synonyms": [
+        "fajita"
+      ]
+    },
+    {
+      "value": "murg curry",
+      "synonyms": [
+        "murg curry"
+      ]
+    },
+    {
+      "value": "chiken kheema",
+      "synonyms": [
+        "chiken kheema"
+      ]
+    },
+    {
+      "value": "type",
+      "synonyms": [
+        "type"
+      ]
+    },
+    {
+      "value": "type1",
+      "synonyms": [
+        "type1"
+      ]
+    },
+    {
+      "value": "second-pizza",
+      "synonyms": [
+        "second-pizza"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

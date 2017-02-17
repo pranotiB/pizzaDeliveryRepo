@@ -1,0 +1,262 @@
+{
+  "userSays": [
+    {
+      "id": "6415a42b-3484-457b-977b-26763e660f55",
+      "data": [
+        {
+          "text": "i want to order a pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a7fb3d6-930d-433a-813f-9ff8a04dcb2a",
+      "data": [
+        {
+          "text": "i\u0027d like to have @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "c33fddab-95a6-41f7-b2cf-95e39e8b2bf6",
+      "data": [
+        {
+          "text": "i want @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "80399259-73b0-4520-9ff7-47c9ffb91f15",
+      "data": [
+        {
+          "text": "i want  @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15cd6921-6408-43f0-8c0d-81b152274c5f",
+      "data": [
+        {
+          "text": "i love pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "082b45b4-9dae-4700-a333-0dcb7eb2f829",
+      "data": [
+        {
+          "text": "i\u0027d like to have pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88d30021-419d-46cd-873f-1e056825a88f",
+      "data": [
+        {
+          "text": "i like pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9fdf530-ba61-41ea-addc-33c5ddb7104d",
+      "data": [
+        {
+          "text": "i want pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3771311e-e9bc-4363-8f4a-47d0d22fa5a4",
+      "data": [
+        {
+          "text": "i would like to have @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4dc9b47e-e637-4582-a288-9c196044cab3",
+      "data": [
+        {
+          "text": "i love @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b656d420-27d8-4aa5-b846-99c3a38871b3",
+      "data": [
+        {
+          "text": "i like @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "daa0aac7-7d89-43bd-88a9-de7d0344e83d",
+      "data": [
+        {
+          "text": "I want @"
+        },
+        {
+          "text": "type",
+          "alias": "type",
+          "meta": "@type",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0dc233d6-5114-43bd-b42b-9403e1292602",
+  "name": "first-pizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.pizza",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        },
+        {
+          "name": "yes-toppings",
+          "lifespan": 2
+        },
+        {
+          "name": "no-toppings",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@type",
+          "name": "type",
+          "value": "$type",
+          "prompts": [
+            "Which type of pizza you want??",
+            "Please tell me pizza type first..",
+            "Can you tell me the type of pizza first?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "prompts": [
+            "Please let me know the size of the pizza please",
+            "Will you please tell me the size for your $type pizza",
+            "Tell which size of $type pizza you want.."
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@crust",
+          "name": "crust",
+          "value": "$crust",
+          "prompts": [
+            "Okay What crust would you like to have for your $size $type pizza?",
+            "Please let me which type of crust you want for your $type pizza..",
+            "Now what crust you would like to have for your $type pizza?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Okay nice choice #pizza.name! Would you like to add any extra toppings to your $type pizza?",
+            "Do you like to add any extra topping for your $type pizza?",
+            "Would you like to add any toppings to your $type pizza??"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

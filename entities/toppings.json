@@ -1,0 +1,142 @@
+{
+  "id": "9d6e27c8-1500-47c1-9a78-e355fcd3fd13",
+  "name": "toppings",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "tomatoes",
+      "synonyms": [
+        "tomatoes",
+        "tomato",
+        "fresh tomatoes"
+      ]
+    },
+    {
+      "value": "paneer",
+      "synonyms": [
+        "paneer"
+      ]
+    },
+    {
+      "value": "olives",
+      "synonyms": [
+        "olives",
+        "black olives",
+        "green olives"
+      ]
+    },
+    {
+      "value": "capsicum",
+      "synonyms": [
+        "capsicum",
+        "green capsicum",
+        "red capsicum",
+        "yellow capsicum"
+      ]
+    },
+    {
+      "value": "onions",
+      "synonyms": [
+        "onions",
+        "red onions"
+      ]
+    },
+    {
+      "value": "paprika",
+      "synonyms": [
+        "paprika",
+        "red paprika"
+      ]
+    },
+    {
+      "value": "corns",
+      "synonyms": [
+        "corns",
+        "corn",
+        "golden corn"
+      ]
+    },
+    {
+      "value": "mushrooms",
+      "synonyms": [
+        "mushrooms"
+      ]
+    },
+    {
+      "value": "peppers",
+      "synonyms": [
+        "peppers",
+        "jalpeno peppers"
+      ]
+    },
+    {
+      "value": "cheese",
+      "synonyms": [
+        "cheese",
+        "mozzarella cheese",
+        "double cheese"
+      ]
+    },
+    {
+      "value": "chiken",
+      "synonyms": [
+        "chiken",
+        "grilled chiken",
+        "chiken salami",
+        "chiken tikka"
+      ]
+    },
+    {
+      "value": "lamb",
+      "synonyms": [
+        "lamb",
+        "lamb pepperoni"
+      ]
+    },
+    {
+      "value": "sausage",
+      "synonyms": [
+        "sausage",
+        "chiken sausage"
+      ]
+    },
+    {
+      "value": "grilled chicken",
+      "synonyms": [
+        "grilled chicken"
+      ]
+    },
+    {
+      "value": "red peparika",
+      "synonyms": [
+        "red peparika"
+      ]
+    },
+    {
+      "value": "toppings",
+      "synonyms": [
+        "toppings"
+      ]
+    },
+    {
+      "value": "toppings1",
+      "synonyms": [
+        "toppings1"
+      ]
+    },
+    {
+      "value": "toppings2",
+      "synonyms": [
+        "toppings2"
+      ]
+    },
+    {
+      "value": "topping1",
+      "synonyms": [
+        "topping1"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

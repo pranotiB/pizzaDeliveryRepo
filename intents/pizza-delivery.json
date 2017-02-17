@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "50d9bbfc-68f0-4283-87a7-8d982b1c117d",
+      "data": [
+        {
+          "text": "pune",
+          "alias": "address",
+          "meta": "@address",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fc4ab78-3d0f-40db-a06f-4387087392fd",
+      "data": [
+        {
+          "text": "kothrud",
+          "alias": "address",
+          "meta": "@address",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9306289-75b0-434e-b6df-aa5612513f79",
+      "data": [
+        {
+          "text": "kothrud pune",
+          "alias": "address",
+          "meta": "@address",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "71254c61-a29d-4eec-93a8-27367199b099",
+  "name": "pizza-delivery",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@address",
+          "name": "address",
+          "value": "$address",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thank you for your order #pizza.name ! Your pizza will be delivered soon to your $address address. Enjoy!!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

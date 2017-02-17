@@ -1,0 +1,34 @@
+{
+  "id": "c9cb7df0-ff67-4a69-b857-b839b61e41c9",
+  "name": "size",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "small",
+      "synonyms": [
+        "small"
+      ]
+    },
+    {
+      "value": "medium",
+      "synonyms": [
+        "medium"
+      ]
+    },
+    {
+      "value": "large",
+      "synonyms": [
+        "large",
+        "big"
+      ]
+    },
+    {
+      "value": "size",
+      "synonyms": [
+        "size"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

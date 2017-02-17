@@ -1,0 +1,176 @@
+{
+  "userSays": [
+    {
+      "id": "8853ecb3-a19b-4f32-a54f-08b9f63558ed",
+      "data": [
+        {
+          "text": "may be"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef41ea27-62af-4fcf-b4e0-47a0b5257636",
+      "data": [
+        {
+          "text": "ok i want @"
+        },
+        {
+          "text": "second-pizza",
+          "alias": "second-pizza",
+          "meta": "@second-pizza",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fa00462-6b1e-4a90-9fe1-1aa9ce0d35c4",
+      "data": [
+        {
+          "text": "i want @"
+        },
+        {
+          "text": "second-pizza",
+          "alias": "second-pizza",
+          "meta": "@second-pizza",
+          "userDefined": true
+        },
+        {
+          "text": " pizza then.."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "340484be-2168-4bce-9c11-c568196e02a6",
+      "data": [
+        {
+          "text": "ok i\u0027\u0027ll take it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5132cfdc-0119-4242-a97d-9d00516292a8",
+      "data": [
+        {
+          "text": "nice i\u0027ll have it then"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e5d46c0-6f16-4453-864c-613537d6c198",
+      "data": [
+        {
+          "text": "that would be great thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49601327-44c6-4ace-9a0b-5b91760bdf0a",
+      "data": [
+        {
+          "text": "yes i want another pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41801c81-6d08-4d45-b88d-25537ff9d32a",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2070471-a059-4d70-9b0b-a91b1adfb93a",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f94f555-4778-440d-8a3c-4a698cb2a8f4",
+      "data": [
+        {
+          "text": "yes i would like to have another pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8ce04c7b-7b92-45d3-8782-d72971f38c17",
+  "name": "yes-offer",
+  "auto": true,
+  "contexts": [
+    "yes-offer"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.pizza.offer",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        },
+        {
+          "name": "yes-offer",
+          "lifespan": 0
+        },
+        {
+          "name": "no-offer",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@second-pizza",
+          "name": "second-pizza",
+          "value": "$second-pizza",
+          "prompts": [
+            "Please tell me which pizza you want then..",
+            "Which pizza you would like to order then?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Okay great!! We\u0027ll deliver #pizza.type and $second-pizza pizza to you. Let me know your address please.",
+            "We\u0027ll deliver #pizza.type and $second-pizza pizza to you. Please tell me your address..",
+            "Where should I deliver #pizza.type pizza and $second-pizza pizza?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

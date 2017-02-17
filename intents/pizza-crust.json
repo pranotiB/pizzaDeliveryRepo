@@ -1,0 +1,114 @@
+{
+  "userSays": [
+    {
+      "id": "a03f3e08-f316-4234-babb-1565fbe83848",
+      "data": [
+        {
+          "text": "i\u0027d like to have @"
+        },
+        {
+          "text": "crust",
+          "alias": "crust",
+          "meta": "@crust",
+          "userDefined": true
+        },
+        {
+          "text": " crust"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "60c734bb-926f-4376-982c-db33a1664c03",
+      "data": [
+        {
+          "text": "@"
+        },
+        {
+          "text": "crust",
+          "alias": "crust",
+          "meta": "@crust",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5b0e90d-5904-4008-aa2e-e3b87297b464",
+      "data": [
+        {
+          "text": "@"
+        },
+        {
+          "text": "crust",
+          "alias": "crust",
+          "meta": "@crust",
+          "userDefined": true
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c975f4e4-ffdf-4b4c-9577-1e48c8b5a753",
+      "data": [
+        {
+          "text": "i want @"
+        },
+        {
+          "text": "crust",
+          "alias": "crust",
+          "meta": "@crust",
+          "userDefined": true
+        },
+        {
+          "text": " pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6c59b1d2-de59-41f3-9803-1d2059687f5d",
+  "name": "pizza-crust",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.pizza.crust",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@crust",
+          "name": "crust",
+          "value": "$crust",
+          "prompts": [
+            "Tell me the type of crust you want please.."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Yes that would be great! Do you want any extra toppings for your #pizza.type pizza??",
+            "Okay! Do you want any extra toppings for your #pizza.type pizza?",
+            "Would you like to have any extra toppings for your #pizza.type pizza?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

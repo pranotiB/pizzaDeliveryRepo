@@ -1,0 +1,75 @@
+{
+  "userSays": [
+    {
+      "id": "fefb8047-556c-407e-8c94-b0b10aef8338",
+      "data": [
+        {
+          "text": "I am "
+        },
+        {
+          "text": "bunty",
+          "alias": "name",
+          "meta": "@customer",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b815c6c3-92fd-4981-9e05-738ae415d311",
+      "data": [
+        {
+          "text": "im "
+        },
+        {
+          "text": "pranoti",
+          "alias": "name",
+          "meta": "@customer",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b177e71f-b840-4fdb-80ea-d691a5b334ff",
+  "name": "intro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizza.intro",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@customer",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi $name. What would you like to have today?",
+            "Hey $name! What would you like to have?",
+            "Great to see you $name. What I can offer you today?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

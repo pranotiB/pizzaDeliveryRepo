@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "bf77e77e-0e58-4204-bfc3-f818fa0a9491",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb85015e-ff5c-4b1a-86dc-928fadc6bfe1",
+      "data": [
+        {
+          "text": "no thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea6a1af0-ee4d-42b3-93cc-d27a79b07180",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b5a4dbd-a231-4e41-a565-44fa06ec297a",
+      "data": [
+        {
+          "text": "no i dont want another pizza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7c0deec3-e719-4cc4-8bda-d67a194e62c0",
+  "name": "no-offer",
+  "auto": true,
+  "contexts": [
+    "no-offer"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.delivery.address",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 5
+        },
+        {
+          "name": "no-offer",
+          "lifespan": 0
+        },
+        {
+          "name": "yes-offer",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Okay. Please tell us your delivery address then..",
+            "Okay great. Where should I deliver #pizza.type pizza??",
+            "Tell me your address so I\u0027ll deliver this #pizza.type pizza to you.."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

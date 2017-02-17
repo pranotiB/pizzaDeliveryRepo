@@ -1,0 +1,114 @@
+{
+  "id": "9adb73c8-1262-4b5e-8700-0c4cb7b1a5e5",
+  "name": "type",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "veg",
+      "synonyms": [
+        "veg",
+        "veggie",
+        "vegetable",
+        "vegg",
+        "simply veggie"
+      ]
+    },
+    {
+      "value": "non veg",
+      "synonyms": [
+        "non veg",
+        "non vegg"
+      ]
+    },
+    {
+      "value": "margherita",
+      "synonyms": [
+        "margherita"
+      ]
+    },
+    {
+      "value": "farm fresh",
+      "synonyms": [
+        "farm fresh"
+      ]
+    },
+    {
+      "value": "veg curry",
+      "synonyms": [
+        "veg curry"
+      ]
+    },
+    {
+      "value": "classic veggie",
+      "synonyms": [
+        "classic veggie"
+      ]
+    },
+    {
+      "value": "garden special",
+      "synonyms": [
+        "garden special"
+      ]
+    },
+    {
+      "value": "paneer tandoori",
+      "synonyms": [
+        "paneer tandoori",
+        "tandoori paneer"
+      ]
+    },
+    {
+      "value": "veg bbq",
+      "synonyms": [
+        "veg bbq",
+        "veg barbeque"
+      ]
+    },
+    {
+      "value": "chiken delight",
+      "synonyms": [
+        "chiken delight"
+      ]
+    },
+    {
+      "value": "chiken barbeque",
+      "synonyms": [
+        "chiken barbeque",
+        "chiken bbq"
+      ]
+    },
+    {
+      "value": "tandoori chiken",
+      "synonyms": [
+        "tandoori chiken",
+        "chiken tandoori"
+      ]
+    },
+    {
+      "value": "fajita",
+      "synonyms": [
+        "fajita"
+      ]
+    },
+    {
+      "value": "murg curry",
+      "synonyms": [
+        "murg curry"
+      ]
+    },
+    {
+      "value": "chiken kheema",
+      "synonyms": [
+        "chiken kheema"
+      ]
+    },
+    {
+      "value": "type",
+      "synonyms": [
+        "type"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
